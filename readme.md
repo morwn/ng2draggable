@@ -4,7 +4,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 Angular 2 directive to make an element draggable. This is different from drag
-and drop as this is used to drag a div around. [Live steve demo](https://cedvdb.github.io/ng2draggable/)
+and drop as this is used to drag a div around. [Live demo](https://cedvdb.github.io/ng2draggable/)
 
 ## Table of content
 * [Installation](#installation)
@@ -72,11 +72,11 @@ the component is no longer moveable.
 
 ## Drag element with child element
 
-The element that triggers the dragging can be specified by using `ng2DraggableTarget`. In the example below the element dragging is controlled by clicking and dragging on the element `elementreference`.
+The element that triggers the dragging can be specified by using `ng2DraggableHandle`. In the example below the element dragging is controlled by clicking and dragging on the element `elementreference`.
 
 ```html
-<div [ng2-draggable]=true [ng2DraggableTarget]="elementreference">
-    <div draggable="false" #elementreference>
+<div [ng2-draggable]=true [ng2DraggableHandle]="elementreference">
+    <div #elementreference>
         Clicking and dragging this drags the parent element.
     </div>
     <div>

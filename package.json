@@ -1,0 +1,29 @@
+{
+  "name": "ng2draggable",
+  "version": "1.3.0",
+  "description": "angular 2 draggable directive to move components around",
+  "main": "draggable.directive.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedvdb/ng2draggable.git"
+  },
+  "keywords": [
+    "angular",
+    "2",
+    "draggable",
+    "directive",
+    "cedvdb",
+    "ng2draggable",
+    "drag",
+    "element"
+  ],
+  "author": "cedvdb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedvdb/ng2draggable/issues"
+  },
+  "homepage": "https://github.com/cedvdb/ng2draggable#readme"
+}
